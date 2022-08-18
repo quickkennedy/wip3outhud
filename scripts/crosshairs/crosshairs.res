@@ -9,17 +9,17 @@
 	// For more instructions: https://github.com/Hypnootize/m0rehud/wiki/Crosshairs
 	//====================================================================================
 
-	"CustomCrosshair"
+	"Hitmarker"
 	{
-		"visible"	"0"																																																																			"ControlName" "CExLabel" "fieldName" "CustomCrosshair" "enabled" "1" "zpos" "0" "wide" "f0" "tall" "f0" "textAlignment" "center"
+		"visible"	"1"																																																																			"ControlName" "CExLabel" "fieldName" "Hitmarker" "enabled" "1" "zpos" "0" "wide" "f0" "tall" "f0" "textAlignment" "center" "alpha" "0"
 
-		"labelText"	"?"
+		"labelText"	"U"
 
 		"font"		"Size:18 | Outline:OFF"
 
 		"xpos"		"cs-0.5"
 		"ypos"		"cs-0.5"
 
-		"fgcolor"	"Crosshair"
+		"fgcolor"	"Ammo In Clip Low"
 	}
 }
