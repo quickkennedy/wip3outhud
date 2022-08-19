@@ -26,7 +26,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"labelText"									"sheild" //"#TF_Charge"
+		"labelText"									"sheild"
 		"textAlignment"								"east"
 		"font"										"Consolas12"
 		"fgcolor"									"255 255 255 255"
