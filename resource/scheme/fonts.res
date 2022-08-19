@@ -371,6 +371,16 @@
 				"antialias" 								"1"
 			}
 		}
+		
+		"Consolas12"
+		{
+			"1"
+			{
+				"name"										"Consolas Bold"
+				"tall"										"12"
+				"antialias" 								"1"
+			}
+		}
 
 		"VerdanaMenu"										//Create Server Button
 		{
@@ -508,10 +518,15 @@
 		}
 		"10"
 		{
+			"font" 		"resource/scheme/fonts/consolas.ttf"
+			"name" 		"Consolas Bold"
+		}
+		"11"
+		{
 			"font" 		"resource/scheme/fonts/blocks.ttf"
 			"name" 		"Blocks"
 		}
-		"11"
+		"12"
 		{
 			"font" 		"resource/scheme/fonts/m0rehud icons.ttf"
 			"name" 		"m0rehud Icons V4"
