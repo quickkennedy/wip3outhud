@@ -141,18 +141,18 @@
 	"HudDeathNotice"
 	{
 		"xpos"	 									"r640"
-		"ypos"	 									"15"
+		"ypos"	 									"40"
 		"wide"	 									"628"
 		"tall"	 									"468"
 
 		"MaxDeathNotices" 							"12"
 		"IconScale"	  								"0.35"
-		"LineHeight"	  							"12"
+		"LineHeight"	  							"9"
 		"LineSpacing"	 							"0"
 		"CornerRadius"	  							"0"
 		"RightJustify"	  							"1"
 
-		"TextFont"									"m0refont11"
+		"TextFont"									"m0refont9"
 
 		"TeamBlue"									"m0reBlue"
 		"TeamRed"									"m0reRed"
@@ -160,7 +160,7 @@
 		"LocalPlayerColor"							"HUDBlack"
 
 		"BaseBackgroundColor"						"0 0 0 100"
-		"LocalBackgroundColor"						"240 240 240 200"
+		"LocalBackgroundColor"						"209 209 201 255"
 	}
 
 	"HudCloseCaption"
@@ -184,6 +184,7 @@
 		"separator_width"							"5"
 		"separator_height"							"5"
 		"height_offset"								"0"
+		"ypos"										"20"
 	}
 
 	"WinPanel"
