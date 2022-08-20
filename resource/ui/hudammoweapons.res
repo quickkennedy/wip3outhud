@@ -26,7 +26,7 @@
 		"xpos"										"-67"
 		"ypos"										"24"
 		"zpos"										"0"
-		"wide"										"p0.2"
+		"wide"										"170" //"p0.2"
 		"tall"										"85"
 		"visible"									"1"
 		"enabled"									"1"
@@ -78,7 +78,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInReserve"
-		"xpos"										"2"
+		"xpos"										"4" //"2"
 		"ypos"										"0"
 		"zpos"										"7"
 		"wide"										"150"
