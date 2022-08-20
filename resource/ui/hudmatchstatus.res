@@ -118,7 +118,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusTimePanel"
 		"xpos"										"cs-0.5"
-		"ypos"										"1"
+		"ypos"										"4"
 		"zpos"										"5"
 		"wide"										"50"
 		"tall"										"40"
@@ -151,31 +151,106 @@
 			"labelText"								"0:00"
 		}
 	}
+	
+	"TeamRedBG2"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TeamRedBG2"
+		"xpos"										"c47"
+		"ypos"										"3"
+		"zpos"										"1"
+		"wide"										"8"
+		"tall"										"15"
+		"visible"									"1"
+		"enabled"									"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"156 46 43 255"
+	}
+	
+	"TeamRedBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TeamRedBG"
+		"xpos"										"c47"
+		"ypos"										"3"
+		"zpos"										"1"
+		"wide"										"356"
+		"tall"										"15"
+		"visible"									"1"
+		"enabled"									"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"156 46 43 90"
+	}
+	
+	"TeamBlueBG2"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TeamBlueBG2"
+		"xpos"										"c-45-8"
+		"ypos"										"3"
+		"zpos"										"1"
+		"wide"										"8"
+		"tall"										"15"
+		"visible"									"1"
+		"enabled"									"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"90 120 138 255"
+	}
+	
+	"TeamBlueBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TeamBlueBG"
+		"xpos"										"c-45-356"
+		"ypos"										"3"
+		"zpos"										"1"
+		"wide"										"356"
+		"tall"										"15"
+		"visible"									"1"
+		"enabled"									"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"90 120 138 90"
+	}
+	
+	"TeamBGTest"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TeamBGTest"
+		"xpos"										"c47+8"
+		"ypos"										"3"
+		"zpos"										"1"
+		"wide"										"28"
+		"tall"										"15"
+		"visible"									"0"
+		"enabled"									"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"156 255 43 255"
+	}
 
 	"TeamStatus"
 	{
 		"ControlName"								"CTFTeamStatus"
 		"fieldName"									"TeamStatus"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"3"
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
 
-		"max_size"									"19"
+		"max_size"									"30"
 
-		"6v6_gap"									"1"
-		"12v12_gap"									"1"
+		"6v6_gap"									"0"
+		"12v12_gap"									"0"
 
 		"team1_grow_dir" 							"west"
-		"team1_base_x"								"c-45"
-		"team1_max_expand"							"150"
+		"team1_base_x"								"c-45-8"
+		"team1_max_expand"							"348" //"356" //"150"
 
 		"team2_grow_dir" 							"east"
-		"team2_base_x"								"c47"
-		"team2_max_expand"							"150"
+		"team2_base_x"								"c47+8"
+		"team2_max_expand"							"348" //"356" //"150"
 
 		"playerpanels_kv"
 		{
@@ -222,7 +297,7 @@
 				"zpos"								"0"
 				"wide"								"f0"
 				"tall"								"f0"
-				"visible"							"1"
+				"visible"							"0"
 				"enabled"							"1"
 				"PaintBackgroundType"				"0"
 				"proportionaltoparent"				"1"
@@ -234,10 +309,10 @@
 				"fieldName"							"healthbar"
 				"xpos"								"0"
 				"ypos"								"rs1"
-				"zpos"								"2"
-				"wide"								"f0"
-				"tall"								"2"
-				"visible"							"1"
+				"zpos"								"0"
+				"wide"								"0" //"f0" //SET TO f0 FOR HP BAR
+				"tall"								"f0"
+				"visible"							"0"
 				"enabled"							"1"
 				"bgcolor_override"	  				"30 30 30 255"
 				"proportionaltoparent"				"1"
@@ -250,9 +325,9 @@
 				"xpos"								"0"
 				"ypos"								"rs1"
 				"zpos"								"3"
-				"wide"								"f0"
+				"wide"								"0" //"f0" //SET TO f0 FOR HP BAR
 				"tall"								"2"
-				"visible"							"1"
+				"visible"							"0"
 				"enabled"							"1"
 				"bgcolor_override"	   				"Blank"
 				"fgcolor_override"	   				"255 255 255 180"
@@ -273,7 +348,7 @@
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
-				"fgcolor"							"255 255 0 255"
+				"fgcolor"							"White"
 			}
 
 
