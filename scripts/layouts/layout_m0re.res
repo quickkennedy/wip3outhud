@@ -48,11 +48,11 @@
 
 	"CHudAccountPanel"
 	{
-		"xpos"         								"c-100"
-		"ypos"										"c53"
-		"ypos_minmode"								"c53"
-		"wide"										"200"
-		"tall"  									"50"
+		"xpos"         								"0"
+		"ypos"										"0"
+		"ypos_minmode"								"0"
+		"wide"										"f0"
+		"tall"  									"f0"
 	}
 
 	"CHealthAccountPanel"
@@ -140,9 +140,9 @@
 
 	"HudDeathNotice"
 	{
-		"xpos"	 									"r640"
+		"xpos"	 									"c-237"
 		"ypos"	 									"40"
-		"wide"	 									"628"
+		"wide"	 									"640"
 		"tall"	 									"468"
 
 		"MaxDeathNotices" 							"12"
@@ -160,7 +160,7 @@
 		"LocalPlayerColor"							"HUDBlack"
 
 		"BaseBackgroundColor"						"0 0 0 100"
-		"LocalBackgroundColor"						"209 209 201 255"
+		"LocalBackgroundColor"						"White"
 	}
 
 	"HudCloseCaption"
@@ -183,8 +183,7 @@
 	{
 		"separator_width"							"5"
 		"separator_height"							"5"
-		"height_offset"								"0"
-		"ypos"										"20"
+		"height_offset"								"430"
 	}
 
 	"WinPanel"
