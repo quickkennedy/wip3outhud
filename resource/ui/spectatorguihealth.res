@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthBonusImage"
-		"xpos"										"12"
+		"xpos"										"99999" //"12"
 		"ypos"										"14"
 		"zpos"										"-1"
 		"wide"										"15"
@@ -30,7 +30,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"m0refont24"
+		"font"										"m0refont16"
 		"fgcolor"  									"Health Numbers"
 	}
 
@@ -43,7 +43,7 @@
 		"zpos"										"20"
 		"wide"										"40"
 		"tall"										"40"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
