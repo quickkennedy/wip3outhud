@@ -45,7 +45,8 @@
 		"Black"												"46 46 54 255"
 		
 		"MenuWhite"											"216 212 203 255"
-		"MenuBlack"											"39 43 52 255"
+		"MenuBlack"											"0 0 0 255"
+		"MenuBG"											"107 98 89 255"
 
 		"Crosshair"											"255 255 255 255"
 		"Crosshair Flash"									"107 157 194 255"

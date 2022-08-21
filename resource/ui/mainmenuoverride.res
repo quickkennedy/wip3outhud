@@ -1054,8 +1054,83 @@
 			"centerwrap"							"1"
 		}
 	}
+	
+	"GameBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"GameBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
 
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									""
+			"textAlignment"							"center"
+			"default"								"1"
+			"sound_depressed"						""
+			"sound_released"						""
+			"labelText"								""	
+			"mouseinputenabled"						"0"
 
+			"paintbackground"						"1"
+			"paintborder"							"0"
+			"paintbackgroundtype"					"0"
+			
+			"defaultBgColor_override" 				"107 98 89 100"
+			"armedBgColor_override" 				"107 98 89 100"
+		}
+	}
+	
+	"MenuBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"MenuBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"m0reSymbols40"
+			"textAlignment"							"center"
+			"default"								"1"
+			"sound_depressed"						""
+			"sound_released"						""
+			"labelText"								""
+
+			"paintbackground"						"1"
+			"paintborder"							"0"
+			"paintbackgroundtype"					"0"
+			
+			"defaultBgColor_override" 				"107 98 89 255"
+			"armedBgColor_override" 				"107 98 89 255"
+		}
+	}
 
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
