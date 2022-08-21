@@ -42,10 +42,13 @@
 		"TanLight"											"255 255 255 255"
 
 		"White"												"209 209 201 255"
-		"Black"												"0 0 0 255"
+		"Black"												"46 46 54 255"
+		
+		"MenuWhite"											"216 212 203 255"
+		"MenuBlack"											"39 43 52 255"
 
 		"Crosshair"											"255 255 255 255"
-		"Crosshair Flash"									"255 0 0 255"
+		"Crosshair Flash"									"107 157 194 255"
 	}
 
 	"BaseSettings"

@@ -45,7 +45,7 @@
 				"paintbackground"					"0"
 				"paintborder"						"0"
 
-				"defaultFgColor_override" 			"White"
+				"defaultFgColor_override" 			"MenuWhite"
 				"armedFgColor_override" 			"Menu Labels"
 				"depressedFgColor_override" 		"Menu Labels"
 			}
@@ -227,9 +227,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultFgColor_override" 				"Black"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
+			"defaultFgColor_override" 				"MenuBlack"
+			"armedFgColor_override" 				"MenuWhite"
+			"depressedFgColor_override" 			"MenuWhite"
 		}
 	}
 
@@ -268,9 +268,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultFgColor_override" 				"Black"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
+			"defaultFgColor_override" 				"MenuBlack"
+			"armedFgColor_override" 				"MenuWhite"
+			"depressedFgColor_override" 			"MenuWhite"
 		}
 	}
 
@@ -309,9 +309,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultFgColor_override" 				"Black"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
+			"defaultFgColor_override" 				"MenuBlack"
+			"armedFgColor_override" 				"MenuWhite"
+			"depressedFgColor_override" 			"MenuWhite"
 		}
 	}
 
@@ -350,9 +350,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultFgColor_override" 				"Black"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
+			"defaultFgColor_override" 				"MenuBlack"
+			"armedFgColor_override" 				"MenuWhite"
+			"depressedFgColor_override" 			"MenuWhite"
 		}
 	}
 
@@ -391,9 +391,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultFgColor_override" 				"Black"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
+			"defaultFgColor_override" 				"MenuBlack"
+			"armedFgColor_override" 				"MenuWhite"
+			"depressedFgColor_override" 			"MenuWhite"
 		}
 	}
 
@@ -432,9 +432,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultFgColor_override" 				"Black"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
+			"defaultFgColor_override" 				"MenuBlack"
+			"armedFgColor_override" 				"MenuWhite"
+			"depressedFgColor_override" 			"MenuWhite"
 		}
 	}
 
@@ -473,9 +473,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultFgColor_override" 				"Black"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
+			"defaultFgColor_override" 				"MenuBlack"
+			"armedFgColor_override" 				"MenuWhite"
+			"depressedFgColor_override" 			"MenuWhite"
 		}
 	}
 	
@@ -514,9 +514,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultFgColor_override" 				"Black"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
+			"defaultFgColor_override" 				"MenuBlack"
+			"armedFgColor_override" 				"MenuWhite"
+			"depressedFgColor_override" 			"MenuWhite"
 		}
 	}
 	
@@ -555,9 +555,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultFgColor_override" 				"Black"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
+			"defaultFgColor_override" 				"MenuBlack"
+			"armedFgColor_override" 				"MenuWhite"
+			"depressedFgColor_override" 			"MenuWhite"
 		}
 	}
 
@@ -600,9 +600,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultFgColor_override" 				"Black"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
+			"defaultFgColor_override" 				"MenuBlack"
+			"armedFgColor_override" 				"MenuWhite"
+			"depressedFgColor_override" 			"MenuWhite"
 		}
 	}
 
@@ -641,9 +641,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultFgColor_override" 				"Black"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
+			"defaultFgColor_override" 				"MenuBlack"
+			"armedFgColor_override" 				"MenuWhite"
+			"depressedFgColor_override" 			"MenuWhite"
 		}
 	}
 
@@ -707,7 +707,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultFgColor_override" 				"White"
+			"defaultFgColor_override" 				"MenuWhite"
 			"armedFgColor_override" 				"Menu Labels"
 			"depressedFgColor_override" 			"Menu Labels"
 		}
@@ -754,9 +754,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultFgColor_override" 				"Black"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
+			"defaultFgColor_override" 				"MenuBlack"
+			"armedFgColor_override" 				"MenuWhite"
+			"depressedFgColor_override" 			"MenuWhite"
 		}
 	}
 	
@@ -779,24 +779,45 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"FriendsContainer"
-		"xpos"										"rs1"
-		"ypos"										"200"
+		"xpos"										"-47-5"
+		"ypos"										"0"
 		"zpos"										"11"
-		"wide"										"106"
-		"tall"										"220"
+		"wide"										"f0"
+		"tall"										"384"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"0 0 0 50"
+		"bgcolor_override"							"0 0 0 0"
+		
+		"pin_to_sibling" 							"FriendsBG"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		
+		"FriendsLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"FriendsLabel"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"15"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"m0refont12"
+			"labelText"								"friends"
+			"textAlignment"							"west"
+			"fgcolor_override"						"MenuBlack"
+		}
 
 		"SteamFriendsList"
 		{
 			"ControlName"							"CSteamFriendsListPanel"
 			"fieldname"								"SteamFriendsList"
-			"xpos"									"3"
-			"ypos"									"3"
+			"xpos"									"0"
+			"ypos"									"16"
 			"zpos"									"500"
-			"wide"									"106"
-			"tall"									"214"
+			"wide"									"231"
+			"tall"									"348"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 
@@ -809,7 +830,7 @@
 
 			"friendpanel_kv"
 			{
-				"wide"								"100"
+				"wide"								"223" //"231"
 				"tall"								"20"
 			}
 
@@ -827,7 +848,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"				"White"
+					"fgcolor_override"				"MenuWhite"
 				}
 			}
 		}
@@ -973,7 +994,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			
-			"fgcolor"								"White"
+			"fgcolor"								"MenuWhite"
 		}
 
 		"TipLabel"
@@ -992,7 +1013,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			
-			"fgcolor"								"White"
+			"fgcolor"								"MenuWhite"
 		}
 	}
 
@@ -1008,7 +1029,7 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"bgcolor_override"							"0 0 0 50"
-		"noitem_textcolor"							"White"
+		"noitem_textcolor"							"MenuWhite"
 		"PaintBackgroundType"						"2"
 
 		"text_ypos"									"20"
@@ -1029,7 +1050,7 @@
 			"enabled"								"1"
 			"labelText"								"%attriblist%"
 			"textAlignment"							"center"
-			"fgcolor"								"White"
+			"fgcolor"								"MenuWhite"
 			"centerwrap"							"1"
 		}
 	}

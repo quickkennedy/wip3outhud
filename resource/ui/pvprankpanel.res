@@ -213,7 +213,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"m0refont48"
-			"fgcolor_override"	"Black"
+			"fgcolor_override"	"MenuBlack"
 			"textAlignment"	"Left"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
@@ -236,7 +236,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"m0refont18"
-			"fgcolor_override"	"Black"
+			"fgcolor_override"	"MenuBlack"
 			"textAlignment"	"Left"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
@@ -260,7 +260,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallest"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"MenuWhite"
 			"textAlignment"	"center"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
@@ -389,7 +389,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"White"
+						"fgcolor_override"	"MenuWhite"
 						"bgcolor_override"	"0 0 0 0"
 					}
 
@@ -404,7 +404,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"White"
+						"fgcolor_override"	"MenuWhite"
 						"bgcolor_override"	"0 0 0 140"
 					}
 

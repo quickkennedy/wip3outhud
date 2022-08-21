@@ -50,9 +50,9 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%name%"
 		"proportionaltoparent"						"1"
-		"font"										"ControlPointTimer"
+		"font"										"Consolas10"
 		"mouseinputenabled"							"0"
-		"fgcolor"									"White"
+		"fgcolor"									"MenuWhite"
 	}
 
 	"StatusLabel"

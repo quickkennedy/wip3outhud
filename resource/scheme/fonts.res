@@ -381,6 +381,15 @@
 			}
 		}
 		
+		"Consolas10"
+		{
+			"1"
+			{
+				"name"										"Consolas Bold"
+				"tall"										"10"
+				"antialias" 								"1"
+			}
+		}
 		"Consolas12"
 		{
 			"1"

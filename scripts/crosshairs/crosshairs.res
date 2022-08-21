@@ -20,6 +20,6 @@
 		"xpos"		"cs-0.5"
 		"ypos"		"cs-0.5"
 
-		"fgcolor"	"Ammo In Clip Low"
+		"fgcolor"	"Crosshair Flash"
 	}
 }
