@@ -329,7 +329,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V4"
+				"name"										"wip3out Icons V1"
 				"tall"										"18"
 				"antialias" 								"1"
 			}
@@ -338,8 +338,17 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V4"
+				"name"										"wip3out Icons V1"
 				"tall"										"20"
+				"antialias" 								"1"
+			}
+		}
+		"m0reSymbols40"
+		{
+			"1"
+			{
+				"name"										"wip3out Icons V1"
+				"tall"										"40"
 				"antialias" 								"1"
 			}
 		}
@@ -528,8 +537,8 @@
 		}
 		"12"
 		{
-			"font" 		"resource/scheme/fonts/m0rehud icons.ttf"
-			"name" 		"m0rehud Icons V4"
+			"font" 		"resource/scheme/fonts/wip3out icons.ttf"
+			"name" 		"wip3out Icons V1"
 		}
 	}
 }
