@@ -1,195 +1,155 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
+	//==================================================================================================================================================
+	// AMMO ANCHOR
+	// This element can be used to move all the ammo elements at the same time
+	// By increasing the wide, the gap between clip and reserver will also increase
+	//==================================================================================================================================================
+
+	"AmmoAnchor"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"AmmoAnchor"
+		"xpos"										"c-200"
+		"ypos"										"r90"
+		"zpos"										"0"
+		"wide"										"5"
+		"tall"										"80"
+		"visible"									"0"
+		"enabled"									"1"
+	}
+	
+	"AmmoBG"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"AmmoBG"
+		"xpos"										"-67"
+		"ypos"										"24"
+		"zpos"										"0"
+		"wide"										"170" //"p0.2"
+		"tall"										"85"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/ammobg"
+		"scaleImage"								"1"	
+
+		"pin_to_sibling"							"AmmoAnchor"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+
+	//==================================================================================================================================================
+	// AMMO IN CLIP
+	//==================================================================================================================================================
+
+	"AmmoInClip"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"AmmoInClip"
+		"xpos"										"2"
+		"ypos"										"0"
+		"zpos"										"5"
+		"wide"										"150"
+		"tall"										"80"
+		"visible"									"0"
+		"enabled"									"1"
+		"font"										"m0refont72"
+		"textAlignment"								"east"
+		"labelText"									"%Ammo%"
+		"fgcolor"									"Ammo In Clip"
+
+		"pin_to_sibling"							"AmmoAnchor"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+
+	"AmmoInClipShadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"AmmoInClipShadow"
+		"xpos"										"99999"
+	}
+
+	//==================================================================================================================================================
+	// AMMO IN RESERVE
+	//==================================================================================================================================================
+
+	"AmmoInReserve"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"AmmoInReserve"
+		"xpos"										"4" //"2"
+		"ypos"										"0"
+		"zpos"										"7"
+		"wide"										"150"
+		"tall"										"80"
+		"visible"									"0"
+		"enabled"									"1"
+		"font"										"m0refont72"
+		"textAlignment"								"west"
+		"labelText"									"%AmmoInReserve%"
+		"fgcolor"									"Ammo In Reserve"
+
+		"pin_to_sibling"							"AmmoAnchor"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+
+	"AmmoInReserveShadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"AmmoInReserveshadow"
+		"xpos"										"99999"
+	}
+
+	//==================================================================================================================================================
+	// AMMO NO CLIP
+	//==================================================================================================================================================
+
+	"AmmoNoClip"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"AmmonoClip"
+		"xpos"										"0"
+		"ypos"    									"0"
+		"zpos"										"5"
+		"wide"										"150"
+		"tall"										"80"
+		"visible"									"0"
+		"enabled"									"1"
+		"font"										"m0refont72"
+		"textAlignment"								"west"
+		"labelText"									"%Ammo%"
+		"fgcolor"									"Ammo No Clip"
+
+		"pin_to_sibling"							"AmmoAnchor"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+
+	"AmmoNoClipShadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"AmmonoClipshadow"
+		"xpos"										"99999"
+	}
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
 	"HudWeaponAmmoBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HudWeaponAmmoBG"
-		"xpos"			"400"
-		"xpos_minmode"	"28"
-		"ypos"			"350"
-		"ypos_minmode"	"7"
-		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"45"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"HudWeaponAmmoBG"
+		"xpos"										"9999"
 	}
 	"HudWeaponLowAmmoImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HudWeaponLowAmmoImage"
-		"xpos"			"411111"
-		"xpos_minmode"	"28"
-		"ypos"			"0"
-		"ypos_minmode"	"7"
-		"zpos"			"0"
-		"wide"			"90"
-		"tall"			"45"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/ammo_red_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"ControlName"								"ImagePanel"
+		"fieldName"									"HudWeaponLowAmmoImage"
+		"xpos"										"9999"
 	}
-	"AmmoInClip"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInClip"
-		"font"			"Starborn12"
-		"fgcolor"		"TanLight"
-		"xpos"			"4"
-		"xpos_minmode"	"8"
-		"ypos"			"0"
-		"ypos_minmode"	"2"
-		"zpos"			"5"
-		"wide"			"55"
-		"tall"			"40"
-		"tall_minmode"	"38"
-		"tall_lodef"	"45"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"south-east"	
-		"labelText"		"%Ammo%"
-		
-	}
-    "AmmoInClipBG"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInClipBG"
-		"font"			"Starborn12"
-		"fgcolor"		"TanLight"
-		"xpos"			"6"
-		"xpos_minmode"	"8"
-		"ypos"			"2"
-		"ypos_minmode"	"2"
-		"zpos"			"5"
-		"wide"			"55"
-		"tall"			"40"
-		"tall_minmode"	"38"
-		"tall_lodef"	"45"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"south-east"	
-		"labelText"		"%Ammo%"
-        "fgcolor"		"150 0 255 255"		
-	}
-	"AmmoInClipShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInClipShadow"
-		"font"			"Starborn12"
-		"fgcolor"		"150 0 255 255"
-		"xpos"			"5"
-		"xpos_minmode"	"9"
-		"xpos_hidef"	"2"
-		"ypos"			"1"
-		"ypos_minmode"	"2"
-		"ypos_hidef"	"2"
-		"ypos_lodef"	"2"
-		"zpos"			"5"
-		"wide"			"55"
-		"tall"			"40"
-		"tall_minmode"	"39"
-		"tall_lodef"	"45"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"south-east"	
-		"labelText"		"%Ammo%"
-		
-	}						
-	"AmmoInReserve"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInReserve"
-		"font"			"Starborn12"
-		"font_lodef"	"HudFontMedium"
-		"font_minmode"	"HudFontSmall"
-		"fgcolor"		"TanLight"
-		"xpos"			"59"
-		"xpos_minmode"	"65"
-		"ypos"			"8"
-		"ypos_lodef"	"10"
-		"zpos"			"7"
-		"wide"			"40"
-		"tall"			"27"
-		"tall_lodef"	"30"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"south-west"		
-		"labelText"		"%AmmoInReserve%"
-	}		
-	"AmmoInReserveShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInReserveShadow"
-		"font"			"Starborn12"
-		"font_lodef"	"HudFontMedium"
-		"font_minmode"	"HudFontSmall"
-		"fgcolor"		"150 0 255 255"
-		"xpos"			"60"
-		"xpos_minmode"	"66"
-		"ypos"			"9"
-		"ypos_lodef"	"11"
-		"zpos"			"7"
-		"wide"			"40"
-		"tall"			"27"
-		"tall_lodef"	"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"south-west"		
-		"labelText"		"%AmmoInReserve%"
-	}									
-	"AmmoNoClip"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoNoClip"
-		"font"			"Starborn12"
-		"fgcolor"		"TanLight"
-		"xpos"			"0"
-		"ypos"			"2"
-		"zpos"			"5"
-		"wide"			"84"
-		"wide_lodef"	"83"
-		"tall"			"40"
-		"tall_minmode"	"36"
-		"tall_lodef"	"45"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"south-east"		
-		"labelText"		"%Ammo%"
-		
-	}	
-	"AmmoNoClipShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoNoClipShadow"
-		"font"			"Starborn12"
-		"fgcolor"		"Black"
-		"xpos"			"1"
-		"xpos_hidef"	"2"
-		"xpos_lodef"	"2"
-		"ypos"			"3"
-		"ypos_hidef"	"4"
-		"ypos_lodef"	"4"
-		"zpos"			"5"
-		"wide"			"84"
-		"wide_lodef"	"83"
-		"tall"			"40"
-		"tall_minmode"	"36"
-		"tall_lodef"	"45"
-		"visible"		"0"
-		"enabled"		"0"
-		"textAlignment"	"south-east"		
-		"labelText"		"%Ammo%"
-		
-	}									
 }
