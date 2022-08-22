@@ -13,7 +13,7 @@
 	{
 		"visible"	"1"																																																																			"ControlName" "CExLabel" "fieldName" "Hitmarker" "enabled" "1" "zpos" "0" "wide" "f0" "tall" "f0" "textAlignment" "center" "alpha" "0"
 
-		"labelText"	"U"
+		"labelText"	"u"
 
 		"font"		"Size:18 | Outline:OFF"
 
