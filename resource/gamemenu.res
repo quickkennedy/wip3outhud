@@ -67,14 +67,14 @@
 	{
 		"label"										"T"
 		"command"									"callvote"
-		"tooltip"									"Call a Vote"
+		//"tooltip"									"Call a Vote"
 		"OnlyInGame" 								"1"
 	}
 	"Mute"
 	{
 		"label"										"S"
 		"command"									"OpenMutePlayerDialog"
-		"tooltip"									"Mute a Player"
+		//"tooltip"									"Mute a Player"
 		"OnlyInGame" 								"1"
 	}
 	
