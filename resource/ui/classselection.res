@@ -54,38 +54,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
-	//==================================================================================================================================================
-	// LOADOUT EDIT
-	//==================================================================================================================================================
-
-	"EditLoadoutButton"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"EditLoadoutButton"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"6"
-		"wide"										"65"
-		"tall"										"10"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"Loadout (&E)"
-		"textAlignment"								"west"
-		"Command"									"openloadout"
-		"font"										"m0refont11"
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"keyboardinputenabled"						"0"
-
-		"paintbackground"							"0"
-		"fgcolor"									"MenuBlack"
-		"defaultFgColor_override" 					"MenuBlack"
-		"armedFgColor_override" 					"MenuWhite"
-		"depressedFgColor_override" 				"MenuWhite"
-		"selectedFgColor_override" 					"MenuWhite"
-	}
-
+	
 	//==================================================================================================================================================
 	// SCOUT
 	//==================================================================================================================================================
@@ -797,7 +766,7 @@
 		"enabled"									"1"
 		"labelText"									"loadout"
 		"textAlignment"								"west"
-		"Command"									"joinclass spy"
+		"Command"									"openloadout"
 		"Default"									"0"
 		"font"										"m0refont24"
 		"stayselectedonclick"						"1"
@@ -814,6 +783,15 @@
 		"pin_to_sibling"							"spy"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+	}
+	"EditLoadoutShortKey"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"EditLoadoutShortKey"
+		"xpos"										"9999"
+		"labelText"									"&E"
+		"Command"									"openloadout"
+		"visible"									"1"
 	}
 
 	//==================================================================================================================================================
