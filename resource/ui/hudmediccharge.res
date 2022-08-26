@@ -8,18 +8,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChargeLabel"
-		"xpos"										"cs-0.5"
-		"ypos"										"c36"
-		"zpos"										"2"
-		"wide"										"100"
-		"tall"										"20"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
-		"font"										"m0refont18Shadow"
-		"fgcolor"   								"Ubercharge"
+		"xpos"										"99999"
 	}
 
 	//==================================================================================================================================================
@@ -31,14 +20,13 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"UberAnchor"
-		"xpos"										"c175"
-		"ypos"										"c95"
+		"xpos"										"c-200"
+		"ypos"										"r90"
 		"zpos"										"0"
-		"wide"										"2"
+		"wide"										"5"
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"alpha"										"0"
 	}
 
 	//==================================================================================================================================================
@@ -58,52 +46,13 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
+		"textAlignment"								"west"
 		"font"										"m0refont72"
 		"fgcolor"   								"Ubercharge"
 
 		"pin_to_sibling"							"UberAnchor"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-	}
-	"ChargeLabelBigShadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabelBigShadow"
-		"xpos"										"-2"
-		"ypos"										"-2"
-		"zpos"										"2"
-		"wide"										"200"
-		"tall"										"80"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
-		"font"										"m0refont72"
-		"fgcolor"  									"Black"
-
-		"pin_to_sibling"							"ChargeLabelBig"
-	}
-	"ChargeLabelBigShadowExtra"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabelBigShadowExtra"
-		"xpos"										"-1"
-		"ypos"										"-1"
-		"zpos"										"2"
-		"wide"										"200"
-		"tall"										"80"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
-		"font"										"m0refont72"
-		"fgcolor"  									"Black"
-		"alpha"  									"0"
-
-		"pin_to_sibling"							"ChargeLabelBigShadow"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	//==================================================================================================================================================
@@ -115,16 +64,15 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
 		"font"										"Default"
-		"xpos"										"0"
-		"ypos"										"rs1"
+		"xpos"										"c120"
+		"ypos"										"c195"
 		"zpos"										"2"
-		"wide"										"f0"
-		"tall"										"4"
+		"wide"										"270"
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"textAlignment"								"Left"
-		"fgcolor_override"							"Ubercharge"
+		"bgcolor_override"							"209 209 201 30"
 	}
 
 	//==================================================================================================================================================
