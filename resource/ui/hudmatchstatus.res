@@ -161,10 +161,15 @@
 		"zpos"										"1"
 		"wide"										"8"
 		"tall"										"15"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"156 46 43 255"
+		
+		if_match
+		{
+			"visible"								"1"
+		}
 	}
 	
 	"TeamRedBG"
@@ -176,10 +181,15 @@
 		"zpos"										"1"
 		"wide"										"356"
 		"tall"										"15"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"156 46 43 90"
+		
+		if_match
+		{
+			"visible"								"1"
+		}
 	}
 	
 	"TeamBlueBG2"
@@ -191,10 +201,15 @@
 		"zpos"										"1"
 		"wide"										"8"
 		"tall"										"15"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"90 120 138 255"
+		
+		if_match
+		{
+			"visible"								"1"
+		}
 	}
 	
 	"TeamBlueBG"
@@ -206,27 +221,16 @@
 		"zpos"										"1"
 		"wide"										"356"
 		"tall"										"15"
-		"visible"									"1"
-		"enabled"									"1"
-		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"90 120 138 90"
-	}
-	
-	"TeamBGTest"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"TeamBGTest"
-		"xpos"										"c47+8"
-		"ypos"										"3"
-		"zpos"										"1"
-		"wide"										"28"
-		"tall"										"15"
 		"visible"									"0"
 		"enabled"									"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"156 255 43 255"
+		"bgcolor_override"							"90 120 138 90"
+		
+		if_match
+		{
+			"visible"								"1"
+		}
 	}
-
 	"TeamStatus"
 	{
 		"ControlName"								"CTFTeamStatus"
