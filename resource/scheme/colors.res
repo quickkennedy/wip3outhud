@@ -33,8 +33,8 @@
 		"Menu Labels"										"255 0 127 255"
 		"Class Selection"									"0 215 0 255"
 
-		"m0reBlue"											"0 120 201 255"
-		"m0reRed"											"235 58 58 255"
+		"m0reBlue"											"90 120 138 255"
+		"m0reRed"											"156 46 43 255"
 
 		"TF2Blue"											"90 122 143 255"
 		"TF2Red"											"189 59 61 255"
