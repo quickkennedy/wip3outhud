@@ -7,7 +7,7 @@
 		"visible" 		        					"1"
 		"enabled" 		        					"1"
 		"xpos"			          					"2"
-		"ypos"			          					"42"
+		"ypos"			          					"rs1-100"
 		"wide"	 		          					"260"
 		"tall"	 		         					"120"
 		"PaintBackgroundType"						"2"
@@ -53,7 +53,7 @@
 		"visible"		          					"1"
 		"enabled"		          					"1"
 		"labelText"		        					""
-		"textAlignment"		    					"south-west"
+		"textAlignment"		    					"south-east"
 		"font"			        					"ChatFont"
 		"maxchars"		       						"-1"
 	}
