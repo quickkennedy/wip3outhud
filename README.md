@@ -1,4 +1,4 @@
-m0rehud fork funny
+A m0rehud fork stylized to look like the menu designs seen in WipEout 3.
 
 credits:
 
