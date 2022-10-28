@@ -433,35 +433,35 @@
 		{
 			"1"
 			{
-				"name"		  								"Delta Ray"
+				"name"		  								"Helvetica"
 				"tall"      								"14"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"2"
 			{
-				"name"		 								"Delta Ray"
+				"name"		 								"Helvetica"
 				"tall"      								"18"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"3"
 			{
-				"name"		  								"Delta Ray"
+				"name"		  								"Helvetica"
 				"tall"      								"22"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"4"
 			{
-				"name"		  								"Delta Ray"
+				"name"		  								"Helvetica"
 				"tall"      								"24"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"5"
 			{
-				"name"										"Delta Ray"
+				"name"										"Helvetica"
 				"tall"										"32"
 				"weight"									"0"
 				"antialias"									"1"
@@ -548,6 +548,11 @@
 		{
 			"font" 		"resource/scheme/fonts/wip3out icons.ttf"
 			"name" 		"wip3out Icons V1"
+		}
+		"13"
+		{
+			"font"		"resource/scheme/fonts/Helvetica-Bold.ttf"
+			"name"		"Helvetica"
 		}
 	}
 }
