@@ -56,5 +56,13 @@
 	{
 		ProgressBar.FgColor									"255 255 255 255"
 		ProgressBar.BgColor									"0 0 0 50"
+		
+		"Econ.Button.PresetDefaultColorFg"					"MenuBlack"
+		"Econ.Button.PresetArmedColorFg"					"MenuBlack"
+		"Econ.Button.PresetDepressedColorFg"				"MenuBlack"
+
+		"Econ.Button.PresetDefaultColorBg"					"MenuWhite"
+		"Econ.Button.PresetArmedColorBg"					"MenuWhite"
+		"Econ.Button.PresetDepressedColorBg"				"MenuWhite"
 	}
 }
