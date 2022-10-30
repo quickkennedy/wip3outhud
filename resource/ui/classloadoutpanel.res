@@ -15,10 +15,10 @@
 		"infocus_bgcolor_override" 					"107 98 89 255"
 		"outoffocus_bgcolor_override" 				"107 98 89 255"
 
-		"item_xpos_offcenter_a"						"-330" // -310
-		"item_xpos_offcenter_b"						"165"
-		"item_ypos"									"60"
-		"item_ydelta"								"75"
+		"item_xpos_offcenter_a"						"-342" //"-310"
+		"item_xpos_offcenter_b"						"163" //"165"
+		"item_ypos"									"58" //"60"
+		"item_ydelta"								"81" //"75"
 		"item_mod_wide"								"60"
 
 		"item_backpack_offcenter_x"					"-288" // 
@@ -83,22 +83,26 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 		}
 	}
+	
+	"ima_background"
+	{
+		"ControlName"							"EditablePanel"
+		"fieldName"								"ima_background"
+		"xpos"									"cs-0.5"
+		"ypos"									"cs-0.5-30"
+		"zpos"									"-1"
+		"wide"									"700"
+		"tall"									"320"
+		"visible"								"1"
+		"enabled"								"1"
+		"bgcolor_override"						"83 75 68 255"
+	}
 
 	"CaratLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CaratLabel"
-		"font"										"HudFontSmallestBold"
-		"labelText"									">>"
-		"textAlignment"								"west"
-		"xpos"										"c-300"
-		"ypos"										"20"
-		"zpos"										"1"
-		"wide"										"0"
-		"tall"										"15"
-		"visible"									"1"
-		"enabled"									"1"
-		"fgcolor" 									"200 80 60 255"
+		"xpos"										"9999"
 	}
 
 	"ClassLabel"
@@ -121,33 +125,14 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TauntCaratLabel"
-		"font"										"HudFontSmallestBold"
-		"labelText"									">>"
-		"textAlignment"								"west"
-		"xpos"										"c-150"
-		"ypos"										"20"
-		"zpos"										"1"
-		"wide"										"0"
-		"tall"										"15"
-		"visible"									"1"
-		"enabled"									"1"
-		"fgcolor" 									"200 80 60 255"
+		"xpos"										"99999"
 	}
 
 	"TauntLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TauntLabel"
-		"font"										"HudFontMediumBold"
-		"labelText"									"#TF_Taunt"
-		"textAlignment"								"west"
-		"xpos"										"c-130"
-		"ypos"										"15"
-		"zpos"										"1"
-		"wide"										"0"
-		"tall"										"25"
-		"visible"									"1"
-		"enabled"									"1"
+		"xpos"										"9999"
 	}
 
 	"classmodelpanel"

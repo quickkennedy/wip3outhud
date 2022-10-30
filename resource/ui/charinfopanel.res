@@ -35,7 +35,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"-2"
-		"wide"										"f0"
+		"wide"										"0" //"f0"
 		"tall"										"120"
 		"visible"									"1"
 		"enabled"									"1"
@@ -54,7 +54,8 @@
 		"tall"										"60"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"loadout_bottom_gradient"
+		//"image"										"loadout_bottom_gradient"
+		"fillcolor"									"107 98 89 255"
 		"tileImage"									"1"
 	}
 
@@ -65,7 +66,7 @@
 		"xpos"										"0"
 		"ypos"										"420"
 		"zpos"										"2"
-		"wide"										"f0"
+		"wide"										"0" //"f0"
 		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
