@@ -117,8 +117,8 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"BackButton"
-		"xpos"										"c-295"
-		"ypos"										"rs1-15"
+		"xpos"										"c-350"
+		"ypos"										"rs1"
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"25"
@@ -132,14 +132,20 @@
 		"Command"									"back"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
+		
+		"fgcolor"									"MenuBlack"
+		
+		"defaultBgColor_override"					"MenuButtonNormal"
+		"armedBgColor_override"						"MenuButtonSelected"
+		"depressedBgColor_override"					"MenuButtonSelected"
 	}
 
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CloseButton"
-		"xpos"										"c190"
-		"ypos"										"rs1-15"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"25"
@@ -153,6 +159,16 @@
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling"							"BackButton"
+		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		
+		"fgcolor"									"MenuBlack"
+		
+		"defaultFgColor_override"					"MenuButtonNormal"
+		"armedFgColor_override"						"MenuButtonSelected"
+		"depressedFgColor_override"					"MenuButtonSelected"
 	}
 
 	"NotificationsPresentPanel"

@@ -50,6 +50,9 @@
 
 		"Crosshair"											"255 255 255 255"
 		"Crosshair Flash"									"107 157 194 255"
+		
+		"MenuButtonNormal"									"216 212 203 153"
+		"MenuButtonSelected"								"216 212 203 255"
 	}
 
 	"BaseSettings"
@@ -64,5 +67,10 @@
 		"Econ.Button.PresetDefaultColorBg"					"MenuWhite"
 		"Econ.Button.PresetArmedColorBg"					"MenuWhite"
 		"Econ.Button.PresetDepressedColorBg"				"MenuWhite"
+		
+		"Button.BgColor"									"107 98 89 255"
+		"Button.ArmedBgColor"								"216 212 203 255"
+		"Button.DepressedBgColor"							"107 98 89 255"
+		"Button.SelectedBgColor"							"216 212 203 255"
 	}
 }

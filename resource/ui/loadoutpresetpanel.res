@@ -27,6 +27,9 @@
 			"fgcolor_override"	"MenuBlack"
 			"bgcolor_override"	"107 98 89 255"
 			"bgcolor_default"	"107 98 89 255"
+			
+			"defaultFgColor_override" 	"MenuBlack"
+			"armedFgColor_override" 	"MenuBlack"
 		}
 	}
 }

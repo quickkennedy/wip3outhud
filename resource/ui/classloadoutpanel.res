@@ -112,13 +112,14 @@
 		"font"										"HudFontMediumBold"
 		"labelText"									"#ClassBeingEquipped"
 		"textAlignment"								"west"
-		"xpos"										"c-280"
+		"xpos"										"cs-0.5"
 		"ypos"										"15"
 		"zpos"										"1"
-		"wide"										"240"
+		"wide"										"700"
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
+		"fgcolor"									"MenuBlack"
 	}
 
 	"TauntCaratLabel"
