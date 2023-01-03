@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{ "$ignorez" "1"
+	"$basetexture" "vgui\replay\thumbnails\class\sel\demo"
+	"$translucent" 1
+"$vertexcolor" "1" }
