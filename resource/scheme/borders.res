@@ -43,5 +43,29 @@ Scheme
 			"inset" 										"0 0 0 0"
 			"backgroundtype" 								"0"
 		}
+
+		"OutlinedGreyBox"
+		{
+			"bordertype"									"scalable_image"
+			"backgroundtype"								"2"
+
+			"image"											"replay/thumbnails/backpack/misc/foldersel"
+			"src_corner_height"								"0"
+			"src_corner_width"								"0"
+			"draw_corner_width"								"0"
+			"draw_corner_height" 							"0"
+		}
+
+		"OutlinedDullGreyBox"
+		{
+			"bordertype"									"scalable_image"
+			"backgroundtype"								"2"
+
+			"image"											"replay/thumbnails/backpack/misc/folderdef"
+			"src_corner_height"								"0"
+			"src_corner_width"								"0"
+			"draw_corner_width"								"0"
+			"draw_corner_height" 							"0"
+		}
 	}
 }

@@ -85,27 +85,12 @@
 		"transition_time" 							"0"
 		"yoffset"									"14"
 
-		"HeaderLine"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"HeaderLine"
-			"xpos"									"0"
-			"ypos"									"32"
-			"zpos"									"5"
-			"wide"									"f0"
-			"tall"									"10"
-			"visible"								"1"
-			"enabled"								"1"
-			"image"									"loadout_solid_line"
-			"scaleImage"							"1"
-		}
-
 		"tabskv"
 		{
 			"textinsetx"							"40"
-			"font"									"HudFontMediumSmallBold"
-			"selectedcolor"							"200 187 161 255"
-			"unselectedcolor"						"130 120 104 255"
+			"font"									"HudFontMediumSmallBoldConsolas"
+			"selectedcolor"							"0 0 0 255"
+			"unselectedcolor"						"216 212 203 255"
 			"defaultBgColor_override"				"46 43 42 255"
 			"paintbackground"						"0"
 			"activeborder_override"					"OutlinedGreyBox"
