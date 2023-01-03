@@ -38,8 +38,8 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"cscout"
-		"xpos"										"c130"
-		"ypos"										"cs-0.5-200"
+		"xpos"										"c176"
+		"ypos"										"cs-0.5-195"
 		"zpos"										"90"
 		"wide"										"60"
 		"tall"										"60"
@@ -79,7 +79,7 @@
 			"image"			"class_sel_sm_soldier_inactive"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
-		}		
+		}
 	}
 	
 	"ScoutSelectNumber"
@@ -611,7 +611,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"cbackpack"
-		"xpos"										"c-340"
+		"xpos"										"c-377"
 		"ypos"										"12"
 		"zpos"										"90"
 		"wide"										"f0"

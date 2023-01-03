@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\backpack\buttons\closesel"
+	"$translucent" 1
+	"$ignorez" 1
+}

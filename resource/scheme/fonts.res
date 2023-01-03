@@ -531,6 +531,17 @@
 				"antialias"								 	"1"
 			}
 		}
+		"HudFontSmallestConsolas"
+		{
+			"1"
+			{
+				"name"										"Consolas"
+				"tall"										"11"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 	}
 
 	"CustomFontFiles"
